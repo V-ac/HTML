@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Mukta:wght@200;300;400;500;600;700;800&family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    /*background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
+    background-image: linear-gradient(to right top, #263b5a, #144966, #00566e, #006470, #00706e, #007f70, #008e6a, #1e9c5f, #3ab159, #5bc54d, #7fd939, #a8eb12);
+}
+
+body p{
+    /*font-style: italic;*/
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    */
+    font-family: "Work Sans", sans-serif;
+    font-size: 35px;
+    color: rgb(26, 30, 41); 
+}
+
+
+header h1{
+    font-family: "Kode Mono", monospace;
+    font-size: 120px;
+    color: #1a1e29; 
+    margin-top: 50px;
+    
+}
+
+body h2{
+    font-family: "Kode Mono", monospace;
+    font-size: 65px;
+    color: #1a1e29;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+body h3{
+    font-family: "Kode Mono", monospace;
+    font-size: 65px;
+    color: #1a1e29;
+    margin: 20px;
+    margin-bottom: 50px;
+    border-bottom: rgb(19, 45, 70) 10px solid;
+}
+
+body h4{
+    font-family: "Kode Mono", monospace;
+    font-size: 50px;
+    color: #0c1925;
+    margin-top: 40px;
+    border-bottom: rgb(19, 45, 70) 10px solid;
+}
+
+.presentacion{
+    
+    width: 90%;
+    margin: 100px 100px 100px 100px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+   
+}
+
+
+.presntacionFondo{
+    background: rgba(0, 0, 0, 0.178);
+    border-radius: 45%;
+    width: 70%;
+    margin-bottom: 350px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.presentacion img{
+    margin: 50px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+.presentacion p{
+    font-family: "Mukta", sans-serif;
+    width: 70%;
+    margin-bottom: 50px;
+    /*margin: 150px 300px 50px 100px;*/
+}
+
+.presentacion button{
+    margin-bottom: 100px;
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-bottom: rgb(19, 45, 70) 10px solid;
+    width: 150px;
+}
+
+.precContacto{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorSobreMi{
+    width: 90%;
+    margin: 100px 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobreMi{
+    background: rgba(0, 0, 0, 0.123);
+    border-radius: 50%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 400px;
+    
+}
+
+.sobreMi p{
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.Formacion{
+
+    width: 90%;
+    margin: 100px 100px 100px 100px;
+}
+
+.proyectos{
+
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+
+.proyectos button{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-bottom: rgb(19, 45, 70) 10px solid;
+    background-color: #004d7a;
+    color: #a8eb12;
+}
+
+#anterior{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 50px;
+    padding: 0px 0px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: none;
+    background-color: #00000027;
+    
+}
+
+
+#siguiente{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 50px;
+    padding: 0px 0px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: none;
+    background-color: #00000027;
+}
+
+#anterior1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 50px;
+    padding: 0px 0px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: none;
+    background-color: #00000027;
+    
+}
+
+
+#siguiente1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 50px;
+    padding: 0px 0px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: none;
+    background-color: #00000027;
+}
+
+
+.proyectos li{
+    display: flex;
+    flex-direction: row;
+}
+.proyectos img{
+    margin-top: 50px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.contenedor{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+.proyectos p{
+
+    width: 100%;
+    text-align: justify;
+    font-size: 25px;
+    color: #fff; 
+}
+
+.mostrar p{
+    font-size: 18px;
+}
+
+.roles{
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.roles li{
+    font-family: "Kode Mono", monospace;
+    display: flex;
+    flex-direction:column;
+    margin: 50px 100px;
+    font-size: 50px;
+    width: 50%;
+   
+    border-bottom: rgb(19, 45, 70) 5px solid;
+
+}
+
+.roles h3{
+    text-align: end;
+}
+
+.roles p{
+    color: #fff;
+    margin: 10px 100px 100px 200px;
+    width: 80%;
+}
+
+
+
+.escolaridad{
+
+    margin-bottom: 300px;
+}
+
+
+.escolaridad p{
+    margin-top: 50px;
+    width: 90%;
+    color: #fff;
+}
+
+.fecha{
+    border-right: #263B5A 5px solid;
+}
+
+.escolaridad img{
+    
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+#upiiz{
+    width: 250px;
+}
+
+#mujerDigital{
+    width: 400px;
+}
+
+.habilidades{
+    margin-bottom: 300px;
+    
+}
+
+.habilidades h3{
+    text-align: end;
+}
+
+.programacion{
+    align-content: center;
+    margin-bottom: 100px;
+}
+.programacion h3{
+    text-align: left;
+    font-size: 40px;
+    width: 50%;
+    border-bottom: rgb(19, 45, 70) 5px solid;
+
+}
+
+.programacion img{
+    width: 80px;
+}
+
+
+.frameworks{
+    margin-bottom: 100px;
+}
+
+.frameworks h3{
+    text-align: left;
+    font-size: 40px;
+    width: 50%;
+    border-bottom: rgb(19, 45, 70) 5px solid;
+}
+
+
+.frameworks img{
+    width: 100px;
+}
+
+
+.herramientas{
+    margin-bottom: 100px;
+}
+
+.herramientas h3{
+    text-align: left;
+    font-size: 40px;
+    width: 50%;
+    border-bottom: rgb(19, 45, 70) 5px solid;
+}
+
+
+.herramientas img{
+    width: 80px;
+}
+/*<*/
+
+
+/*<div class="row bg-danger text-center">
+                                    
+                                    <div class="col-md-4 text-center bg-info">
+                                        <img src="./imagenes/yo.jpg" class="img-fluid" alt="">
+                                        <p class="container-md">Reconocimiento</p>
+                                    </div>
+                                    <div class="col-md-3">
+
+                                    </div>
+                                    <div class="col-md-4 bg-primary">
+                                        <img src="./imagenes/yo.jpg" class="img-fluid" alt="">
+                                        <p class="container-md">Reconocimiento</p>
+                                    </div>
+                                    <div class="col-md-3">
+
+                                    </div>
+                                    <div class="col-md-4 bg-info">
+                                        <img src="./imagenes/yo.jpg" class="img-fluid" alt="">
+                                        <p class="container-md">Reconocimiento</p>
+                                    </div>
+                        </div>*/
