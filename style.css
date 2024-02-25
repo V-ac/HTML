@@ -53,8 +53,7 @@ body h4{
 
 .presentacion{
     
-    width: 90%;
-    margin: 100px 100px 100px 100px;
+   
     display: flex;
     flex-direction:column;
     align-items:center;
@@ -130,12 +129,6 @@ body h4{
 
 
 
-
-.Formacion{
-
-    width: 90%;
-    margin: 100px 100px 100px 100px;
-}
 
 .proyectos{
 
@@ -255,8 +248,7 @@ body h4{
 
 .roles p{
     color: #fff;
-    margin: 10px 100px 100px 200px;
-    width: 80%;
+    
 }
 
 
