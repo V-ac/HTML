@@ -51,13 +51,24 @@ body h4{
     border-bottom: rgb(19, 45, 70) 10px solid;
 }
 
+
+.btnContacto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btnContacto a img{
+    width: 80px;
+    background-color: #fff;
+}
+
+
+
 .presentacion{
-    
-   
     display: flex;
     flex-direction:column;
     align-items:center;
-   
+    margin-top: 100px;
 }
 
 
@@ -102,8 +113,7 @@ body h4{
 }
 
 .contenedorSobreMi{
-    width: 90%;
-    margin: 100px 100px 100px 100px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -230,7 +240,7 @@ body h4{
     margin-bottom: 300px;
 }
 
-.roles li{
+.roles ul{
     font-family: "Kode Mono", monospace;
     display: flex;
     flex-direction:column;
